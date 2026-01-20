@@ -1,0 +1,37 @@
+body {
+  background-color: #ebedee;
+  font-family: Helvetica, sans-serif;
+  color: #222;
+}
+
+.container {
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.heading {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #1e293b;
+  font-size: 25px;
+}
+
+.subheading {
+  color: #334155;
+  font-size: 20px;
+}
+
+.text {
+  line-height: 1.6;
+  color: #444;
+  font-size: 15px;
+}
+
+.list {
+  margin-left: 20px;
+  color: #444;
+  font-size: 15px;
+}
