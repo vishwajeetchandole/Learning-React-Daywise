@@ -1,16 +1,34 @@
-# React + Vite
+# Day 01 – React Basics ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On Day 1, I focused on understanding **what React is and why it is used**, along with setting up my first React environment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📘 Topics Covered
+- What is React.js
+- Why React is used
+- Import & Export in React
+- Real DOM vs Virtual DOM
+- Setting up a React app using Vite
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧪 Mini Project
+A simple React page explaining:
+- What React is
+- Why React is preferred
+- Difference between Real DOM and Virtual DOM
 
-## Expanding the ESLint configuration
+This project helped me understand how React renders UI efficiently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💡 Key Learnings
+- React uses a **Virtual DOM** to improve performance
+- Vite makes React setup **fast and lightweight**
+- React encourages thinking in terms of UI updates, not page reloads
+
+---
+
+## ✅ Outcome
+Built my first React app and got comfortable with the project structure and development workflow.
