@@ -25,6 +25,7 @@ Instead of just watching tutorials, I apply what I learn each day through hands-
 ## 📅 Learning Progress
 - **Day 01:** React Basics & Environment Setup
 - **Day 02:** React Components (Reusable UI)
+- **Day 03:** Props & Dynamic Components
 
 This repository will be **updated regularly** as I continue learning React and building more projects.
 
