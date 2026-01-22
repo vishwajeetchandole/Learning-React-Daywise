@@ -1,16 +1,55 @@
-# React + Vite
+# Day 03 – React Props 🔗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On Day 3 of my React learning journey, I explored **Props**, one of the most important concepts in React that enables components to receive and display dynamic data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📘 Topics Covered
+- What are Props in React
+- Passing data from parent to child components
+- Making components dynamic and reusable
+- Rendering multiple components using the same structure
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧪 Mini Project
+A **Job Listing UI** built using a reusable **Card component**.
 
-## Expanding the ESLint configuration
+Each card receives data via props such as:
+- Company logo
+- Job role and job type
+- Experience level
+- Location
+- Salary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The same card component is reused multiple times with different data.
+
+---
+
+## 🧠 My Approach
+- Designed a single reusable **Card component**
+- Passed job-related data as props instead of hardcoding values
+- Rendered multiple cards using the same component structure
+- Focused on understanding **data flow** rather than styling
+
+---
+
+## 👍 Why Props Matter
+- Make components flexible and reusable
+- Help maintain a clear data flow in applications
+- Allow the same component to display different data
+
+---
+
+## ⚠️ Challenges Faced
+- Understanding how props are passed and accessed
+- Structuring data cleanly for multiple components
+
+These challenges helped strengthen my understanding of component-based architecture.
+
+---
+
+## 🎯 Key Takeaway
+Props act as a **bridge between components**. Learning props made it clear how real-world React applications stay modular, dynamic, and scalable.
+
+This project helped me move from static components to **data-driven UI**.
