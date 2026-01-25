@@ -26,6 +26,8 @@ Instead of just watching tutorials, I apply what I learn each day through hands-
 - **Day 01:** React Basics & Environment Setup
 - **Day 02:** React Components (Reusable UI)
 - **Day 03:** Props & Dynamic Components
+- **Day 04 – Exploring Tailwind CSS**: Learned the fundamentals of Tailwind CSS and built a modern, responsive login page UI using utility-first styling to understand rapid UI development in React.
+
 
 This repository will be **updated regularly** as I continue learning React and building more projects.
 
