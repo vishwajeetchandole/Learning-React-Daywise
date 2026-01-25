@@ -10,7 +10,7 @@ const Card = (props) => {
           alt={props.company}
         />
         <button>
-          Save <Bookmark size={18} />
+          Save 
         </button>
       </div>
 
