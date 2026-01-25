@@ -23,9 +23,9 @@ Instead of just watching tutorials, I apply what I learn each day through hands-
 ---
 
 ## 📅 Learning Progress
-- **Day 01:** React Basics & Environment Setup
-- **Day 02:** React Components (Reusable UI)
-- **Day 03:** Props & Dynamic Components
+- **Day 01 – React Fundamentals**: Explored what React is, how it works under the hood, the difference between Real DOM and Virtual DOM, and set up a React project using Vite to understand the basic React workflow.
+- **Day 02 – Components in React**: Learned the concept of components in React and built a small UI using reusable components to understand component structure, composition, and separation of concerns.
+- **Day 03 – Props & Dynamic Data**: Explored props in React and built a dynamic card-based UI by passing data between components, focusing on reusability and data-driven component design.
 - **Day 04 – Exploring Tailwind CSS**: Learned the fundamentals of Tailwind CSS and built a modern, responsive login page UI using utility-first styling to understand rapid UI development in React.
 
 
