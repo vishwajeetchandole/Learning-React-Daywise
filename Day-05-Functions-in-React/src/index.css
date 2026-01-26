@@ -1,0 +1,54 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Onest",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont;
+}
+
+/* Center everything on the page */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Message styling */
+#message {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Button styling */
+.button {
+  height: auto;
+  width: fit-content;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 26px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-2px);
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  gap: 20px;
+}
