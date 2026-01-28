@@ -1,16 +1,71 @@
-# React + Vite
+# 📅 Day 06 – Exploring `useState` & State Management in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On **Day 6** of my React learning journey, I explored one of the most important concepts in React — **state management using the `useState` hook**. This day helped me understand how React handles dynamic data and UI updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 What I Learned
 
-## React Compiler
+### 🔹 `useState` Hook
+- What state is and why it’s needed in React
+- How to initialize and update state using `useState`
+- How state changes trigger UI re-renders
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔹 Updating State Correctly
+- Importance of **immutability**
+- How to update:
+  - Primitive values
+  - Objects
+  - Arrays
+- Avoiding direct state mutation
 
-## Expanding the ESLint configuration
+### 🔹 Batch Updates in React
+- How React batches multiple state updates for performance
+- Understanding why state updates may feel asynchronous
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Event Handling with State
+- Connecting UI events (clicks) with state updates
+- Writing clean and readable event handler functions
+
+---
+
+## 🛠 Mini Project – Counter App
+
+To apply these concepts practically, I built a **Counter App** using `useState`.
+
+### ✨ Features:
+- ➕ **Increase** button to increment the count
+- ➖ **Decrease** button to decrement the count
+- 🔄 **Reset** button to reset the count to zero
+- Instant UI updates driven by state changes
+
+---
+
+## 💡 My Approach
+
+- Focused on understanding *how and why* state works
+- Practiced writing predictable and clean state logic
+- Followed React best practices for updating state
+- Kept the UI simple to focus purely on logic
+
+---
+
+## 📌 Key Takeaways
+
+- `useState` is the backbone of interactive React apps
+- State should always be treated as immutable
+- Proper state handling leads to predictable UI behavior
+- Small projects make learning concepts much clearer
+
+---
+
+## 🚀 What’s Next?
+
+Moving forward, I’ll continue exploring:
+- More advanced hooks
+- Component communication
+- Real-world mini projects
+
+---
+
+📍 *Learning React day-by-day and building strong fundamentals.*
