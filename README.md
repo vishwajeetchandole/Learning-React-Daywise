@@ -27,6 +27,8 @@ Instead of just watching tutorials, I apply what I learn each day through hands-
 - **Day 02 – Components in React**: Learned the concept of components in React and built a small UI using reusable components to understand component structure, composition, and separation of concerns.
 - **Day 03 – Props & Dynamic Data**: Explored props in React and built a dynamic card-based UI by passing data between components, focusing on reusability and data-driven component design.
 - **Day 04 – Exploring Tailwind CSS**: Learned the fundamentals of Tailwind CSS and built a modern, responsive login page UI using utility-first styling to understand rapid UI development in React.
+- **Day 05:** Explored functions in React, passing functions as props, event handling, and built a mini project with reusable button components showing dynamic messages.
+- **Day 06:** Learned React’s `useState` hook, state updates with immutability, batch updates, event handling, and built a counter app with increase, decrease, and reset functionality.
 
 
 This repository will be **updated regularly** as I continue learning React and building more projects.
